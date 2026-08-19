@@ -1,0 +1,20 @@
+ABRIR JUPYTER
+
+C:
+cd "C:\Users\sofim\Escritorio\directorio_de_trabajo\pdstestbench\venv312\Scripts"
+activate.bat
+cd "C:\Users\sofim\Escritorio\directorio_de_trabajo\pdstestbench\pdstestbench"
+jupyter notebook
+
+
+CERRAR JUPYTER
+
+Guardar el notebook en el navegador (Ctrl+S)
+Ir a la consola negra y apretar Ctrl+C
+
+
+SUBIR A GITHUB
+
+git add .
+git commit -m "TS4"
+git push
