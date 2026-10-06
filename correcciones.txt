@@ -1,0 +1,12 @@
+Correcciones de las TSs
+
+* TS3: Desparramo Espectral
+
+    * Gran trabajo 
+    * Es mejor usar stem para los gráficos (o plot que muestre los puntos como lo hiciste en el primer gráfico,
+      si bien tampoco es correcto unir con líneas) porque los espectros son discretos.
+    * Veo que los picos dan justo 0dB (o 1 en términos de Potencia/Hz), si la señal sinusoidal está normalizada 
+      en potencia debería dar un poco más abajo, porque la otra mitad del espectro que no mostrás porque es 
+      redundante también aporta energía. 
+    * Hubiese quedado perfecto si explicabas el efecto del zero padding en términos de convolución en frecuencia
+      del espectro de la señal sinusoidal con la transformada de Fourier de la ventana temporal (boxcar).
