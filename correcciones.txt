@@ -10,3 +10,12 @@ Correcciones de las TSs
       redundante también aporta energía. 
     * Hubiese quedado perfecto si explicabas el efecto del zero padding en términos de convolución en frecuencia
       del espectro de la señal sinusoidal con la transformada de Fourier de la ventana temporal (boxcar).
+
+* TS4: Estimadores
+
+    * Le falta más desarrollo a la conclusión, no se ve que hagas un análisis de los resultados que te dieron las
+      estimaciones. Tenés que poder comparar el efecto de usar una determinada ventana con respecto a otra, si es
+      que hay alguna diferencia o qué tan robustos son los estimadores respecto del ruido. 
+    * En los gráficos de las señales y la ventana el eje vertical tiene una etiqueta que no es del todo correcta.
+      Llamamos amplitud al valor máximo de la señal en todo caso. En ese eje podés poner directamente sin(wt) o 
+      w(t), son valores de la señal. Es un error mínimo, pero vale aclarar.
